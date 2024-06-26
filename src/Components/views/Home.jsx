@@ -3,6 +3,8 @@ import HeroApp from '../home/Hero'
 import AppAbout from '../home/About'
 import AppFeature from '../home/Feature'
 import AppFaq from '../home/Faq'
+import PricingApp from '../home/Pricing'
+import ContactApp from '../home/Contact'
 
 const AppHome = () => {
   return (
@@ -11,6 +13,8 @@ const AppHome = () => {
     <AppAbout/>
     <AppFeature/>
     <AppFaq/>
+    <PricingApp/>
+    <ContactApp/>
 
 </div>
 )

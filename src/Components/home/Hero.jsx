@@ -23,7 +23,7 @@ const items = [
   ]
 const HeroApp = () => {
   return (
-   <div className="heroBlock">
+   <div id='Hero' className="heroBlock">
      
      <Carousel >
         {items.map((item)=>{

@@ -103,14 +103,18 @@ header
 
 .header .ant-anchor {
   display: flex;
+  
 }
 
 .header .ant-anchor-ink {
   display: none;
 }
 
+
+
 .header .ant-anchor-link {
-  padding: 0 20px;
+  padding:0 20px;
+
   line-height: 1.4;
   position: relative;
 }
