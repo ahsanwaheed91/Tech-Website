@@ -112,9 +112,9 @@ header
 
 
 
-.header .ant-anchor-link {
-  padding:0 20px;
-
+.ant-anchor-link {
+  padding-left:10px;
+  margin-left: 20px;
   line-height: 1.4;
   position: relative;
 }
@@ -124,10 +124,12 @@ header
   content: '';
   background: #1890ff;
   width: 1px;
+ 
   position: absolute;
   top: 2px;
   bottom: 2px;
-  left: 30%;
+  left: 15%;
+  right: -20% !important;
   opacity: 0;
   transition: all 0.3s linear;
 }
@@ -135,6 +137,7 @@ header
 .header .ant-anchor-link:after {
   left: auto;
   right: 30%;
+  
 }
 
 .header .ant-anchor-link.ant-anchor-link-active:before,
